@@ -1,0 +1,57 @@
+/*version tablette*/
+@media (min-width: 768px) and (max-width:992px){
+    .flex-tab{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+    .function-block{
+        width:45%;
+    }
+    .menu-select-wrap{
+        display: flex;
+        justify-content: space-between;
+        .menu-select{
+            width:30%;
+            .menu-block-text{
+                transition: width 0.5s linear;
+                h3,p{
+                    width: 180px;
+                    white-space: nowrap;
+                    overflow: hidden !important;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 992px) {
+    .flex-tab{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    .restaurant-articles{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+    .function-block{
+        width:30%;
+    }
+    .restaurant-card{
+        width: 45%;
+    }
+    .nouveau-tag{
+        width:10%;
+        left:8%;
+    }
+    .extra-left{
+        left:54%;
+    }
+}
