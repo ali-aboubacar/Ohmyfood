@@ -31,14 +31,27 @@
     width: 30%;
   }
   .menu-select-wrap .menu-select .menu-block-text {
-    -webkit-transition: width 0.5s linear;
-    transition: width 0.5s linear;
+    -webkit-transition: width 0.5s ease-in;
+    transition: width 0.5s ease-in;
   }
   .menu-select-wrap .menu-select .menu-block-text h3, .menu-select-wrap .menu-select .menu-block-text p {
     width: 180px;
     white-space: nowrap;
     overflow: hidden !important;
     text-overflow: ellipsis;
+  }
+  .menu-select-block:hover .menu-block-text {
+    width: 55%;
+  }
+  .menu-select-block:hover .menu-block-text h3, .menu-select-block:hover .menu-block-text p {
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+  .menu-select-block:hover .menu-block-check {
+    margin-right: 0;
+    width: 25%;
   }
 }
 
@@ -81,6 +94,37 @@
   }
   .extra-left {
     left: 54%;
+  }
+  .menu-select-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-select-wrap .menu-select {
+    width: 30%;
+  }
+  .menu-select-wrap .menu-select .menu-block-text {
+    -webkit-transition: width 0.5s ease-in;
+    transition: width 0.5s ease-in;
+  }
+  .menu-select-wrap .menu-select .menu-block-text h3, .menu-select-wrap .menu-select .menu-block-text p {
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+  .menu-select-block:hover .menu-block-text {
+    width: 55%;
+  }
+  .menu-select-block:hover .menu-block-check {
+    margin-right: 0;
+    width: 30%;
+  }
+  .menu-select-block:hover .menu-block-price {
+    width: 14%;
   }
 }
 /*# sourceMappingURL=desktop.css.map */

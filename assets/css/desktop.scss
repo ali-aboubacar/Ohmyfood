@@ -16,7 +16,7 @@
         .menu-select{
             width:30%;
             .menu-block-text{
-                transition: width 0.5s linear;
+                transition: width 0.5s ease-in;
                 h3,p{
                     width: 180px;
                     white-space: nowrap;
@@ -26,8 +26,24 @@
             }
         }
     }
+    .menu-select-block{  
+        &:hover{
+            .menu-block-text{
+                width: 55% ;
+                h3,p{
+                    width: 100px;
+                    white-space: nowrap;
+                    overflow: hidden !important;
+                    text-overflow: ellipsis;
+                }
+            }
+            .menu-block-check{
+                margin-right:0;
+                width:25%;
+            }
+        }
+    }
 }
-
 @media all and (min-width: 992px) {
     .flex-tab{
         display: flex;
@@ -53,5 +69,35 @@
     }
     .extra-left{
         left:54%;
+    }
+    .menu-select-wrap{
+        display: flex;
+        justify-content: space-between;
+        .menu-select{
+            width:30%;
+            .menu-block-text{
+                transition: width 0.5s ease-in;
+                h3,p{
+                    width: 180px;
+                    white-space: nowrap;
+                    overflow: hidden !important;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+    }
+    .menu-select-block{  
+        &:hover{
+            .menu-block-text{
+                width: 55% ;
+            }
+            .menu-block-check{
+                margin-right:0;
+                width:30%;
+            }
+            .menu-block-price{
+                width:14%;
+            }
+        }
     }
 }
