@@ -215,8 +215,10 @@ a{
 
   }
   /*animation du like button*/
-  .restaurant-heart{
+  .restaurant-hear{
     display: flex;
+  }
+  .heart{
     position: relative;
     margin: 0;
     i{
@@ -313,9 +315,13 @@ a{
 }
 .section-intro{
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 80%;
+  h1{
+    width:85%;
+    margin: 0;
+    margin-top: 30px;
+  }
 }
 .menu-select-wrap{
   width: 95%;
