@@ -386,6 +386,10 @@ footer {
      object-fit: contain;
 }
 
+.footer-text .extra-pad {
+  padding-left: 10px;
+}
+
 .footer-text span {
   padding-left: 4px;
 }
@@ -539,6 +543,11 @@ footer {
   margin-right: 0;
 }
 
+.menu-select-block:hover .menu-block-check i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 /*animation d' entre */
 .slide_up_1 {
   -webkit-animation-delay: 282ms;
@@ -626,5 +635,10 @@ footer {
 
 .menu-block-check i {
   color: white;
+  font-size: 1.8em;
+  -webkit-transition: -webkit-transform 750ms ease-in;
+  transition: -webkit-transform 750ms ease-in;
+  transition: transform 750ms ease-in;
+  transition: transform 750ms ease-in, -webkit-transform 750ms ease-in;
 }
 /*# sourceMappingURL=main.css.map */

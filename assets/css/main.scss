@@ -262,6 +262,9 @@ a{
     }
   }
   .footer-text{
+    .extra-pad{
+      padding-left: 10px;
+    }
     span{
       padding-left: 4px;
     }
@@ -373,6 +376,9 @@ a{
       }
       .menu-block-check{
           margin-right:0;
+          i{
+            transform: rotate(360deg);
+          }
       }
   }
 }
@@ -428,6 +434,7 @@ a{
   transition: margin-right 0.5s linear;
   i{
       color:white;
+      font-size: 1.8em;
+      transition:transform 750ms ease-in
   }
 }
-
