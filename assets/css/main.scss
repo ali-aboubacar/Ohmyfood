@@ -4,7 +4,7 @@ body {
   font-family: 'Shrikhand', cursive;
   box-sizing: border-box;
 }
-p{
+p,h4{
   font-family: 'Roboto',sans-serif;
 }
 $primary-color: #9356DC;
@@ -212,7 +212,7 @@ a{
   .restaurant-caption{
     width:65%;
     height:60px;
-    h3,p{
+    h4,p{
       margin:0;
       margin-top:2%;
     }
@@ -339,7 +339,7 @@ a{
   display: flex;
   align-items: center;
   width: 80%;
-  h1{
+  h2{
     width:85%;
     margin: 0;
     margin-top: 30px;
@@ -386,7 +386,7 @@ a{
   animation: slide_up 750ms ease-in-out 0ms 1 normal forwards;
   &:hover{
       .menu-block-text{
-          h3,p{
+          h4,p{
               width: 180px;
               white-space: nowrap;
               overflow: hidden !important;
@@ -429,9 +429,10 @@ a{
   border-radius: 20px;
   transform-origin:left;
   transition: transform 1s ease-in-out 250ms ;
-  h3,p{
-      white-space: unset;
-      text-overflow: unset;
+  h4,p{
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
       margin-bottom:0;
       margin-top: 10px;
   }

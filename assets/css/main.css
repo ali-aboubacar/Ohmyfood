@@ -6,7 +6,7 @@ body {
           box-sizing: border-box;
 }
 
-p {
+p, h4 {
   font-family: 'Roboto',sans-serif;
 }
 
@@ -327,7 +327,7 @@ a {
   height: 60px;
 }
 
-.restaurant-caption h3, .restaurant-caption p {
+.restaurant-caption h4, .restaurant-caption p {
   margin: 0;
   margin-top: 2%;
 }
@@ -490,7 +490,7 @@ footer {
   width: 80%;
 }
 
-.section-intro h1 {
+.section-intro h2 {
   width: 85%;
   margin: 0;
   margin-top: 30px;
@@ -555,7 +555,7 @@ footer {
           animation: slide_up 750ms ease-in-out 0ms 1 normal forwards;
 }
 
-.menu-select-block:hover .menu-block-text h3, .menu-select-block:hover .menu-block-text p {
+.menu-select-block:hover .menu-block-text h4, .menu-select-block:hover .menu-block-text p {
   width: 180px;
   white-space: nowrap;
   overflow: hidden !important;
@@ -627,9 +627,10 @@ footer {
   transition: transform 1s ease-in-out 250ms, -webkit-transform 1s ease-in-out 250ms;
 }
 
-.menu-block-text h3, .menu-block-text p {
-  white-space: unset;
-  text-overflow: unset;
+.menu-block-text h4, .menu-block-text p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   margin-bottom: 0;
   margin-top: 10px;
 }
