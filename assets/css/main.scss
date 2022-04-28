@@ -4,7 +4,10 @@ body {
   font-family: 'Shrikhand', cursive;
   box-sizing: border-box;
 }
-p,h4{
+p,
+h4,
+span,
+li{
   font-family: 'Roboto',sans-serif;
 }
 $primary-color: #9356DC;
@@ -212,9 +215,10 @@ a{
   .restaurant-caption{
     width:65%;
     height:60px;
+    padding-top:2%;
     h4,p{
       margin:0;
-      margin-top:2%;
+      margin-top:4%;
     }
 
   }
@@ -256,13 +260,13 @@ a{
     margin: auto;
   }
   .footer-logo{
-    width:35%;
-    height: 100px;
+    display: flex;
+    width:45%;
     margin-left:35px;
-    img{
-      width: 100%;
-      height:100px;
-      object-fit: contain;
+    h1{
+      color: white;
+      font-size: 1.5em;
+      font-weight: 500;
     }
   }
   .footer-text{
@@ -340,7 +344,7 @@ a{
   align-items: center;
   width: 80%;
   h2{
-    width:85%;
+    width:92%;
     margin: 0;
     margin-top: 30px;
   }
