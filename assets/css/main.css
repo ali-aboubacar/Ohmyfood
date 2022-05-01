@@ -404,6 +404,10 @@ footer {
   padding-left: 4px;
 }
 
+.footer-text a {
+  color: white;
+}
+
 .footer-text ul {
   color: white;
   list-style-type: none;
