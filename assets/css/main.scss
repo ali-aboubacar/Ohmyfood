@@ -218,7 +218,7 @@ a{
     padding-top:2%;
     h4,p{
       margin:0;
-      margin-top:4%;
+      margin-top:1%;
     }
 
   }
@@ -289,7 +289,7 @@ a{
 /* the other pages layout pages */
 /* header an logo*/
 .logo_menu{
-  width:50%;
+  width:70%;
   height:60px;
   img{
       width:100%;
@@ -460,5 +460,58 @@ a{
       color:white;
       font-size: 1.8em;
       transition:transform 750ms ease-in
+  }
+}
+
+/* contact form */
+.contact-form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+.contact-divide-img{
+  display: none;
+  width:95%;
+  height:250px;
+  img{
+    width:100%;
+    object-fit: contain;
+  }
+}
+.contact-divide-input{
+  width:95%;
+  input{
+    width: 97%;
+    height: 35px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: transparent;
+    padding-left: 20px;
+  }
+  textarea{
+    width: 97%;
+    height: 90px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: transparent;
+    padding-left: 20px;
+  }
+  button{
+  height: 55px;
+  width:60%;
+  border:transparent;
+  border-radius:30px;
+  margin-left:18%;
+  margin-bottom:20px;
+  color:white;
+  transition: all 200ms ease;
+  background-color: $secondary-color ;
+  background-image:linear-gradient(to bottom right,$secondary-color ,$primary-color );
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  &:hover{
+    filter: brightness(1.4);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.397), 0 6px 20px 0 rgba(0, 0, 0, 0.219);
+  }
   }
 }

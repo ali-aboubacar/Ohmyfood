@@ -126,5 +126,15 @@
   .menu-select-block:hover .menu-block-price {
     width: 14%;
   }
+  .contact-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .contact-divide-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=desktop.css.map */

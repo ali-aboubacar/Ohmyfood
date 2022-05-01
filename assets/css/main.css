@@ -333,7 +333,7 @@ a {
 
 .restaurant-caption h4, .restaurant-caption p {
   margin: 0;
-  margin-top: 4%;
+  margin-top: 1%;
 }
 
 /*animation du like button*/
@@ -417,7 +417,7 @@ footer {
 /* the other pages layout pages */
 /* header an logo*/
 .logo_menu {
-  width: 50%;
+  width: 70%;
   height: 60px;
 }
 
@@ -669,5 +669,78 @@ footer {
   transition: -webkit-transform 750ms ease-in;
   transition: transform 750ms ease-in;
   transition: transform 750ms ease-in, -webkit-transform 750ms ease-in;
+}
+
+/* contact form */
+.contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+}
+
+.contact-divide-img {
+  display: none;
+  width: 95%;
+  height: 250px;
+}
+
+.contact-divide-img img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.contact-divide-input {
+  width: 95%;
+}
+
+.contact-divide-input input {
+  width: 97%;
+  height: 35px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  border: transparent;
+  padding-left: 20px;
+}
+
+.contact-divide-input textarea {
+  width: 97%;
+  height: 90px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  border: transparent;
+  padding-left: 20px;
+}
+
+.contact-divide-input button {
+  height: 55px;
+  width: 60%;
+  border: transparent;
+  border-radius: 30px;
+  margin-left: 18%;
+  margin-bottom: 20px;
+  color: white;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  background-color: #FF79DA;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
+  background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-divide-input button:hover {
+  -webkit-filter: brightness(1.4);
+          filter: brightness(1.4);
+  -webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.397), 0 6px 20px 0 rgba(0, 0, 0, 0.219);
+          box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.397), 0 6px 20px 0 rgba(0, 0, 0, 0.219);
 }
 /*# sourceMappingURL=main.css.map */
