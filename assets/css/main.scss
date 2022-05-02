@@ -82,6 +82,8 @@ a{
 .intro button{
   height: 55px;
   width:60%;
+  position:relative;
+  z-index: 1;
   border:transparent;
   border-radius:30px;
   color:white;
@@ -573,9 +575,9 @@ a{
   height:100vh;
   position: fixed;
   background-color: #74727448;
-  z-index:10;
+  z-index:20;
   opacity: 1;
-  animation: fade-out 4s ease 0s 1 normal forwards;
+  animation: fade-out 4s ease 2s 1 normal forwards;
 }
 @keyframes fade-out {
 	0% {
