@@ -1,109 +1,113 @@
 /*version tablette*/
-@media (min-width: 768px) and (max-width:992px){
-    .flex-tab{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap:wrap;
-    }
-    .function-block{
-        width:45%;
-    }
-    .menu-select-wrap{
-        display: flex;
-        justify-content: space-between;
-        .menu-select{
-            width:30%;
-            .menu-block-text{
-                transition: width 0.5s ease-in;
-                h4,p{
-                    width: 180px;
-                    white-space: nowrap;
-                    overflow: hidden !important;
-                    text-overflow: ellipsis;
-                }
-            }
+@media (min-width: 768px) and (max-width: 992px) {
+  .flex-tab {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .function-block {
+    width: 45%;
+  }
+  .menu-select-wrap {
+    display: flex;
+    justify-content: space-between;
+    .menu-select {
+      width: 30%;
+      .menu-block-text {
+        transition: width 0.5s ease-in;
+        h4,
+        p {
+          width: 180px;
+          white-space: nowrap;
+          overflow: hidden !important;
+          text-overflow: ellipsis;
         }
+      }
     }
-    .menu-select-block{  
-        &:hover{
-            .menu-block-text{
-                width: 55% ;
-                h4,p{
-                    width: 100px;
-                    white-space: nowrap;
-                    overflow: hidden !important;
-                    text-overflow: ellipsis;
-                }
-            }
-            .menu-block-check{
-                margin-right:0;
-                width:25%;
-            }
+  }
+  .menu-select-block {
+    &:hover {
+      .menu-block-text {
+        width: 55%;
+        h4,
+        p {
+          width: 100px;
+          white-space: nowrap;
+          overflow: hidden !important;
+          text-overflow: ellipsis;
         }
+      }
+      .menu-block-check {
+        margin-right: 0;
+        width: 25%;
+      }
     }
+  }
 }
+/* version desktop */
 @media all and (min-width: 992px) {
-    .flex-tab{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
-    }
-    .restaurant-articles{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap; 
-    }
-    .function-block{
-        width:30%;
-    }
-    .restaurant-card{
-        width: 45%;
-    }
-    .nouveau-tag{
-        width:10%;
-        left:8%;
-    }
-    .extra-left{
-        left:54%;
-    }
-    .menu-select-wrap{
-        display: flex;
-        justify-content: space-between;
-        .menu-select{
-            width:30%;
-            .menu-block-text{
-                transition: width 0.5s ease-in;
-                h4,p{
-                    width: 180px;
-                    white-space: nowrap;
-                    overflow: hidden !important;
-                    text-overflow: ellipsis;
-                }
-            }
+  .flex-tab {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  .restaurant-articles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .function-block {
+    width: 30%;
+  }
+  .restaurant-card {
+    width: 45%;
+  }
+  .nouveau-tag {
+    width: 10%;
+    left: 8%;
+  }
+  .extra-left {
+    left: 54%;
+  }
+  .menu-select-wrap {
+    display: flex;
+    justify-content: space-between;
+    .menu-select {
+      width: 30%;
+      .menu-block-text {
+        transition: width 0.5s ease-in;
+        h4,
+        p {
+          width: 180px;
+          white-space: nowrap;
+          overflow: hidden !important;
+          text-overflow: ellipsis;
         }
+      }
     }
-    .menu-select-block{  
-        &:hover{
-            .menu-block-text{
-                width: 55% ;
-            }
-            .menu-block-check{
-                margin-right:0;
-                width:30%;
-            }
-            .menu-block-price{
-                width:14%;
-            }
-        }
+  }
+  .menu-select-block {
+    &:hover {
+      .menu-block-text {
+        width: 55%;
+      }
+      .menu-block-check {
+        margin-right: 0;
+        width: 30%;
+      }
+      .menu-block-price {
+        width: 14%;
+      }
     }
-    .contact-wrap{
-        display: flex;
-    }
-    .contact-divide-img{
-        display:flex;
-    }
+  }
+  .contact-wrap {
+    display: flex;
+  }
+  .contact-divide-img {
+    display: flex;
+  }
 }
