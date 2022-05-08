@@ -34,7 +34,8 @@
     -webkit-transition: width 0.5s ease-in;
     transition: width 0.5s ease-in;
   }
-  .menu-select-wrap .menu-select .menu-block-text h4, .menu-select-wrap .menu-select .menu-block-text p {
+  .menu-select-wrap .menu-select .menu-block-text h4,
+  .menu-select-wrap .menu-select .menu-block-text p {
     width: 180px;
     white-space: nowrap;
     overflow: hidden !important;
@@ -43,7 +44,8 @@
   .menu-select-block:hover .menu-block-text {
     width: 55%;
   }
-  .menu-select-block:hover .menu-block-text h4, .menu-select-block:hover .menu-block-text p {
+  .menu-select-block:hover .menu-block-text h4,
+  .menu-select-block:hover .menu-block-text p {
     width: 100px;
     white-space: nowrap;
     overflow: hidden !important;
@@ -55,6 +57,7 @@
   }
 }
 
+/* version desktop */
 @media all and (min-width: 992px) {
   .flex-tab {
     display: -webkit-box;
@@ -110,7 +113,8 @@
     -webkit-transition: width 0.5s ease-in;
     transition: width 0.5s ease-in;
   }
-  .menu-select-wrap .menu-select .menu-block-text h4, .menu-select-wrap .menu-select .menu-block-text p {
+  .menu-select-wrap .menu-select .menu-block-text h4,
+  .menu-select-wrap .menu-select .menu-block-text p {
     width: 180px;
     white-space: nowrap;
     overflow: hidden !important;

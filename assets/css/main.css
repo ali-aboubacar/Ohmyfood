@@ -348,7 +348,7 @@ a {
 }
 
 /*animation du like button*/
-.restaurant-hear {
+.restaurant-heart {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -440,11 +440,9 @@ footer {
   height: 60px;
 }
 
-.logo_menu img {
-  width: 100%;
-  height: 60px;
-  -o-object-fit: contain;
-     object-fit: contain;
+.logo_menu h1 {
+  font-size: 3em;
+  margin: 0;
 }
 
 .header-wrap {
